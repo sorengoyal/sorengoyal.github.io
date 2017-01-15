@@ -2087,6 +2087,7 @@
 			}
 
 			.image.avatar img {
+  			border: 3px solid rgba(97, 154, 89, 0.32);
 				border-radius: 100%;
 				width: 100%;
 			}
@@ -2488,15 +2489,23 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 1);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+	    background-color: rgba(52, 77, 51, 0.78);
+      padding-right: 1em
+		}
+		#header h5 {
+			color: rgba(255, 255, 255, 0.78);
+	    background-color: rgba(52, 77, 51, 0.78);
+      padding-right: 1em
 		}
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
+			
 		}
 
 /* Footer */
@@ -2512,18 +2521,21 @@
 
 		#footer .icons {
 			margin: 1em 0 0 0;
+			background-color: rgba(52, 77, 51, 0.78);
+      padding: 0 1em 0 0;
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.4);
+				color: rgba(255, 255, 255, 1);
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.4);
+			color: rgba(255, 255, 255, 0.78);
 			font-size: 0.8em;
 			list-style: none;
-			margin: 1em 0 0 0;
-			padding: 0;
+			margin: 0em 0 0 0;
+			padding: 0 1em 0 0;
+  		background-color: rgba(52, 77, 51, 0.78);
 		}
 
 			#footer .copyright li {
